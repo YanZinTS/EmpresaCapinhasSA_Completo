@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --cor-topo: #1C0F37;
+    --cor-corpo: #2a6eae6d;
+    --cor-branca: white;
+    --cor-rodape: #4B7DAB;
+    --padding-20px: 20px;
+
+}
+
+* {
+    /*tirar os espaçametos total do site*/
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#cabecalho{
+    background-color: var(--cor-topo);
+    /* display flex deixa em linha, space-between ajusta a linha e o aling itens centraliza*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#cabecalho nav a {
+    text-decoration: none;
+    color: var(--cor-branca);
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--cor-corpo);
+}
+
+#corpo #banner{
+    background-color: rgb(34, 96, 135);
+    height: calc(100vh - 93px); /*usar pra deixar 100% sem estourar tudo*/
+    display: flex;
+    flex-direction: column; /*mudar a direção do flex para sem em coluna*/
+    align-items: center; /*coloca o conteudo no centro*/
+    justify-content: center; /*coloca o conteudo no centro tambem*/
+    background-image: url(/imgs/banner.png);
+    background-repeat: no-repeat; /*imagem não repete*/
+    background-size: cover; /*fundo preenche toda a área*/
+    background-position: center center;
+    width: -300px;
+    text-align: center;
+}
+
+.margin-cima-baixo{
+    margin: 20px 0px;
+    color: var(--cor-branca);
+}
+
+#corpo #banner h1{
+    color: var(--cor-branca);
+    font-size: 20pt;
+}
+
+#corpo #banner button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    border: none;
+    background-color: var(--cor-corpo);
+    color: var(--cor-branca);
+    cursor: pointer;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+#corpo #banner p{
+    font-size: 14pt;
+}
+
+#rodape{
+    background-color: var(--cor-rodape);
+    text-align: center;
+    padding: 15px;
+}
+
+#rodape .logorod{
+    padding: 10px;
+}
+
+#rodape p{
+    color: var(--cor-branca);
+}
+
+#rodape p{
+    padding: 10px;
+}
+
+#rodape .cttemp img{
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.line{
+    border-bottom: 3px solid;
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img1{
+    width: 80px;
+}
+
