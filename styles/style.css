@@ -19,6 +19,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 #cabecalho{
     background-color: var(--cor-topo);
     /* display flex deixa em linha, space-between ajusta a linha e o aling itens centraliza*/
