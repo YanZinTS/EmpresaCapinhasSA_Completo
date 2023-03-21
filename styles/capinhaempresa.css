@@ -9,6 +9,11 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+
+}
+
+img{
+    max-width: 100%;
 }
 
 .cabecalho{
@@ -131,4 +136,96 @@
     font-size: 28px;
     line-height: 28px;
     text-align: justify;
+}
+
+@media (max-width: 1441px) {
+    #corpo .grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .grid figure{
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .titulo{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .fichatecnica p{
+        text-align: center;
+        margin: 50px;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .pagamento{
+        justify-content: center;
+        padding: 0px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .parcela{
+        justify-content: center;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .botaobanner{
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1441px) {
+    #corpo .descricao{
+        margin: 100px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 769px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18pt;
+        width: auto;
+    }
+}
+
+@media (max-width: 769px){
+    #corpo .titulo {
+        justify-content: center;
+        font-size: 25pt;
+    }
+}
+
+@media (max-width: 321px){
+    .cabecalho .botoes a {
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 321px){
+    #corpo .fichatecnica img {
+        height: 425px;
+    }
+}
+
+@media (max-width: 321px){
+    #corpo .botaobanner {
+        width: 280px;
+    }
 }

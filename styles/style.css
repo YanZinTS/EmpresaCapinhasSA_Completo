@@ -112,3 +112,21 @@
     width: 80px;
 }
 
+
+@media (max-width: 376px) {
+    #cabecalho {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 321px) {
+    #corpo #banner h1 {
+        font-size: 16pt;
+    }
+
+    #cabecalho {
+        padding: 26px 0px;
+    }
+}

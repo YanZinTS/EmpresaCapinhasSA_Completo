@@ -86,5 +86,9 @@
 
 }
 
-
-
+@media (max-width: 1440px) {
+    .produtos{
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+}

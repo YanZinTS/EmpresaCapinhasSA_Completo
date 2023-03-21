@@ -158,3 +158,82 @@
 .logind h1{
     margin-top: 20px;
 }
+
+@media (max-width: 1441px) {
+    #cabecalho{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1301px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1301px) {
+    .logind img{
+        display: block;
+        margin: 17px auto;
+    }
+}
+
+@media (max-width: 1301px) {
+    .formulario{
+        margin: 40px auto -30px;
+    }
+}
+
+@media (max-width: 426px) {
+    #cabecalho {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18pt;
+        width: auto;
+    }
+}
+
+@media (max-width: 426px) {
+    #corpo h1{
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 426px) {
+    .botao button{
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 426px) {
+    .formulario{
+        margin: 40px auto -30px;
+        width: auto;
+    }
+}
+
+@media (max-width: 426px) {
+    .logind img{
+        display: block;
+        margin: 17px auto;
+        width: 350px;
+    }
+}
+
+@media (max-width: 321px) {
+    .formulario{
+        margin: 40px auto -30px;
+        width: auto;
+        width: 340px;
+    }
+}
+
+@media (max-width: 321px) {
+    .logind img{
+        display: block;
+        margin: 17px auto;
+        width: 300px;
+    }
+}
